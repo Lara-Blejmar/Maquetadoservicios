@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(118, 133, 197);
+
+}
+
+h2{
+
+color:white;
+}
+
+
+.contenedor-general {
+    width: 650px;
+    height: 250px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    -webkit-border-radius:3px;
+    padding: 1rem;
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(97, 93, 93);
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: white;
+    flex: 0 0.5 200px;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+
+.tarjeta:hover{
+    background-color:rgba(211, 211, 211, 0.589);
+}
+
+.tarjeta .titulo-item{
+    color: blue;
+}
+
+.tarjeta .precio-item {
+        color: blue;
+        font-size: small;
+
+        position:absolute;
+        bottom: 0px;
+        left: 50%;
+        transform:translateX(-50%);
+        -webkit-transform:translateX(-50%);
+        -moz-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        -o-transform:translateX(-50%);
+}
+
+.tarjeta .texto-item{
+    color: blue;
+    font-size: small;
+}
+
+.tarjeta img{
+width: 50px;
+height: 50px;
+}
+
+.tarjeta p{
+    font-size: 15px;
+}
+
+.tarjeta .precio-item .fecha {
+    font-size: 25px;
+    font-weight: bold;
+}
